@@ -4,6 +4,12 @@ from sqlalchemy.orm import sessionmaker
 import os
 from dotenv import load_dotenv
 
+# COURSE_DATABASE_URL="postgresql://postgres:myPassword@localhost:5432/glms_course"
+# ASSESSMENT_DATABASE_URL="postgresql://postgres:myPassword@localhost:5432/glms_assessment"
+# USER_DATABASE_URL="postgresql://postgres:myPassword@localhost:5432/glms_user"
+# LEARNER_DATABASE_URL="postgresql://postgres:myPassword@localhost:5432/glms_learningactivity"
+
+
 # Load environment variables from .env file
 load_dotenv()
 
